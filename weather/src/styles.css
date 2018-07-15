@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+.container{
+    text-align: center;
+}
+.current-weather{
+    float: right;
+    padding-right: 50%;
+    padding-top: 20px;
+
+}
+.input-group{
+    margin: 0 20%
+}
+.fiveDays{
+    margin-bottom: 2rem;
+
+}
+h1,h2,h3,h4{
+    color: white !important;
+}
+.weatheImg{
+    width:7rem;
+    height: 7rem
+}
+.day{
+    padding: 5rem;
+    display: inline-block;
+    border: solid 2px oldlace;
+}
+
+html,body { 
+    background: url(./assets/images/world-background.png) no-repeat center center fixed; 
+    height: 100%;
+    background-size: cover;
+  }

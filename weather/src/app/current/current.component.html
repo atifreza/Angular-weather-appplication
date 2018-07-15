@@ -1,0 +1,24 @@
+<div class="container">
+  <form (ngSubmit)="onSubmit(form)" #form="ngForm">
+      <div class="row">
+          <div class="col-lg-12">
+            <div class="input-group">
+              <input type="text" ngModel name="city" class="form-control" placeholder="Name of a city">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button">Go!</button>
+              </span>
+            </div><!-- /input-group -->
+          </div><!-- /.col-lg-6 -->
+        </div>
+  </form>
+  <div class="current-weather">
+      <h1>{{weather.cityName}}</h1>
+      <h2>{{weather.temp}}&deg;</h2>
+      <div class="img">
+        <img src="http://openweathermap.org/img/w/{{weather.weatherIcon}}.png" alt="" class="weatheImg">
+      </div>
+      <h3>{{weather.weatherKind}}</h3>
+      <h4>Max: {{weather.maxTemp}}&deg;</h4>
+      <h4>Min: {{weather.minTemp}}&deg;</h4>
+  </div>
+</div>
