@@ -1,0 +1,354 @@
+/HTML start/
+
+<div class = "container main-accordion">
+        <div class="form-header">
+            <div class="signature-header">
+                <label for="price" class="pull-left">Close</label>
+                <label for="date">SIGNATURE FLIGHT SUPPORT</label>
+            </div>
+            
+                
+        </div>
+  
+    <div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+      <div class="panel-heading heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle header" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+            DATES
+          </a>
+        </h4>
+      </div>
+      <div id="collapseOne" class="panel-collapse collapse in">
+        <div class="panel-body">
+            <div class="effective-dates">
+                    <label for="price">Price Effective Date</label>
+                    <label for="date" class="pull-right">11/15/2017 00:00</label>
+            </div>
+            <div class="expiration-dates">
+                    <label for="price">Price Expiration Date</label>
+                    <label for="date" class="pull-right">11/21/2017 23:59</label>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle header" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+            FUEL PRICE DETAILS
+          </a>
+        </h4>
+      </div>
+      <div id="collapseTwo" class="panel-collapse collapse in">
+        <div class="panel-body">
+                <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">From<div>(USG)</div></th>
+                            <th scope="col">To<div>(USG)</div></th>
+                            <th scope="col">Base Price<div>(USG)</div></th>
+                            <th scope="col">Fuel Tax<div>(USG)</div></th>
+                            <th scope="col">Fuel Fee<div>(USG)</div></th>
+                            <th scope="col">Sales Tax<div>(USG)</div></th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>300</td>
+                            <td>2.06176</td>
+                            <td>0.24616</td>
+                            <td>5.695</td>
+                            <td>0</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>300</td>
+                            <td>2.06176</td>
+                            <td>0.24616</td>
+                            <td>5.695</td>
+                            <td>0</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>300</td>
+                            <td>2.06176</td>
+                            <td>0.24616</td>
+                            <td>5.695</td>
+                            <td>0</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>300</td>
+                            <td>2.06176</td>
+                            <td>0.24616</td>
+                            <td>5.695</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>300</td>
+                            <td>2.06176</td>
+                            <td>0.24616</td>
+                            <td>5.695</td>
+                            <td>0</td>
+                        </tr>
+                        </tbody>
+                      </table>
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle header" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+            TAX DETAIL (INCLUDED IN ABOVE PRICE)
+          </a>
+        </h4>
+      </div>
+      <div id="collapseThree" class="panel-collapse collapse in">
+        <div class="panel-body">
+                <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">Tax</th>
+                            <th scope="col">USD</th>
+                            <th scope="col">%</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>901 - U.S. FEDERAL EXCISE TAX(FET) - JETA</td>
+                            <td>0.244</td>
+                            <td>0</td>
+                          </tr>
+                          <tr>
+                            <td>901 - U.S. FEDERAL EXCISE TAX(FET) - JETA</td>
+                            <td>0.244</td>
+                            <td>0</td>
+                          </tr>
+                          <tr>
+                            <td>901 - U.S. FEDERAL EXCISE TAX(FET) - JETA</td>
+                            <td>0.244</td>
+                            <td>0</td>
+                          </tr>
+                        </tbody>
+                      </table>
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+            <div class="panel-heading heading">
+              <h4 class="panel-title">
+                <a class="accordion-toggle header" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                  FEE DETAIL(INCLUDED IN ABOVE PRICE)
+                </a>
+              </h4>
+            </div>
+            <div id="collapseFour" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                            <table class="table">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">FEE</th>
+                                        <th scope="col">USD</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>802 - AIRPORT/FLOWAGE FEE</td>
+                                        <td>0.21</td>
+                                      </tr>
+                                      <tr>
+                                        <td>883 - NON-MEMBER SYSTEM USE FEE...</td>
+                                        <td>0.145</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                    </div>
+                  </div>
+          </div>
+          <div class="panel panel-default">
+                <div class="panel-heading heading">
+                  <h4 class="panel-title">
+                    <a class="accordion-toggle header" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+                      FEE DETAIL(INCLUDED IN ABOVE PRICE)
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseFive" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                                <table class="table">
+                                        <thead>
+                                          <tr>
+                                                <th scope="col">From<div>(USG)</div></th>
+                                                <th scope="col">To<div>(USG)</div></th>
+                                                <th scope="col">Minimum Fee<div>(USG)</div></th>
+                                                <th scope="col">USD</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <td>1</td>
+                                            <td>299</td>
+                                            <td>0</td>
+                                            <td>5.642</td>
+                                          </tr>
+                                          <tr>
+                                            <td>1</td>
+                                            <td>299</td>
+                                            <td>0</td>
+                                            <td>5.642</td>
+                                          </tr>
+                                          <tr>
+                                                <td>1</td>
+                                                <td>299</td>
+                                                <td>0</td>
+                                                <td>5.642</td>
+                                              </tr>
+                                              <tr>
+                                                    <td>1</td>
+                                                    <td>299</td>
+                                                    <td>0</td>
+                                                    <td>5.642</td>
+                                                  </tr>
+                                        </tbody>
+                                      </table>
+                        </div>
+                      </div>
+              </div>
+                    <div class="jumbotron">
+                        <div>
+                            <div class="jumbotron-content"></div>
+                            <div class="display-4 card">Card Accepted</div>
+                            <div class="button-group payment-card pull-right">
+                                <button id="submit" name="button" value="register" class="avcard">AVcard</button>               
+                                <button id="cancel" name="button" value="cancel" class="colt-card">Colt card</button>
+                            </div>
+                            <div class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.
+                                    This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.
+                                    This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.
+                            </div>
+                            <hr class="my-4">
+                            <div class="set">
+                                    <button id="submit" name="button" value="register" class="setup">Setup</button>
+                            </div>
+                        </div>
+                            
+                            
+                          </div>
+  </div>
+    
+    
+  </div>
+  /HTML end/
+  
+  /CSS start/
+    .panel-heading .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+    content: "\e114";    /* adjust as needed, taken from bootstrap.css */
+    float: right;        /* adjust as needed */
+    color: grey;         /* adjust as needed */
+}
+.panel-heading .accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\e080";    /* adjust as needed, taken from bootstrap.css */
+}
+
+*{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.heading{
+    color: #fbf7f7;
+    background-color: #020202;
+    border-color: #ddd;
+    border-radius: 0px;
+}
+.panel-group .panel+.panel{
+    margin-top:0px;
+}
+.panel-collapse{
+    background: black;
+    color: white;
+}
+
+.header:hover{
+    text-decoration: none;
+}
+.main-accordion{
+    width: 32%;
+}
+.card{
+    display: inline-block;
+}
+.payment-card{
+    display: inline-block;
+}
+
+.container .jumbotron, .container-fluid .jumbotron{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.avcard{
+    margin-right: 3px;
+    background: #4a4646;
+    color: white;
+    border: 1px solid white;
+    height: 30px;
+    width: 67px;
+}
+
+.colt-card{
+    background: #4a4646;
+    color: white;
+    border: 1px solid white;
+    height: 30px;
+
+}
+
+.jumbotron{
+    background: black;
+    border-radius: 0;
+    color: white;
+}
+
+.setup{
+    background: black;
+    width: 29%;
+    text-align: center;
+}
+.set{
+    text-align: center;
+}
+
+.jumbotron-content{
+    border-top: 1px solid;
+    padding-top: 20px;
+}
+.lead{
+    margin-top: 40px;
+    font-size: 14px;
+} 
+
+.form-header{
+    background: black;
+    color: white;
+    padding: 6px;
+}
+
+.effective-dates{
+    border-bottom: 1px solid;
+}
+.expiration-dates{
+    margin-top: 5px;
+}
+.signature-header{
+    text-align: center;
+    
+}
+  /CSS end
+
